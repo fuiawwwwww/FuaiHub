@@ -1,4 +1,98 @@
-html, body {
-  height: 100%;
-  width: 100%;
+.body {
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #ff0000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.info {
+   background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    display: flexx;
+    top: 100em;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.button {
+    display: inline;
+    width: 10em;
+    top: 1em;
+    position: relative;
+    color: #ffffff;
+    background-color: #ff000000;
+    border-radius: 50px;
+    height: 2em;
+    font-size: 4vh;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #ff0000;
+    transition: ease-out 0.2s;
+    box-shadow: inset 12em 0 0 0 #f000;
+}
+
+
+.button:hover {
+    box-shadow: inset 12em 0 0 0 #ff0000;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+.discord{
+    width: 40px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+textarea {
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+input {
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
 }
